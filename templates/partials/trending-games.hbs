@@ -1,0 +1,17 @@
+<section id="trending-games" class="trending-games">
+    <div class="trending-games__container">
+        <div class="trending-games__images">
+            {{#each trendingGames.images}}
+            <div class="trending-games__image">
+                <img src="{{this}}" alt="Game image">
+            </div>
+            {{/each}}
+        </div>
+
+        <div class="trending-games__content">
+            <span class="section-label">TRENDING GAMES</span>
+            <h2 class="section-title">{{trendingGames.title}}</h2>
+            <p class="section-subtitle">{{trendingGames.subtitle}}</p>
+        </div>
+    </div>
+</section>

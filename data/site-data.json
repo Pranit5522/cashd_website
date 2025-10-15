@@ -1,0 +1,156 @@
+{
+  "site": {
+    "title": "Cash'D - Turn Your Playtime into Paytime!",
+    "description": "Turn your gaming skills into real rewards – Play games and win cash prizes effortlessly."
+  },
+  "navigation": [
+    { "label": "Home", "href": "#home", "active": true },
+    { "label": "About", "href": "#how-it-works" },
+    { "label": "Social", "href": "#social" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "hero": {
+    "title": "Turn Your Playtime into Paytime!",
+    "subtitle": "Turn your gaming skills into real rewards – Play games and win cash prizes effortlessly.",
+    "userCount": "500k+ already playing",
+    "image": "/assets/images/hero.png",
+    "logo": "/assets/images/logo_white.png",
+    "playstore_url": "https://play.google.com/store/apps/details?id=com.rewarded.game.play"
+  },
+  "partners": {
+    "logos": [
+      {
+        "src": "/assets/images/partner-logos/krafton.webp",
+        "alt": "Partner logo 1",
+        "width": "130px",
+        "height": "68px",
+        "className": "object-cover"
+      },
+      {
+        "src": "/assets/images/partner-logos/potato_play.webp",
+        "alt": "Partner logo 2",
+        "width": "50px",
+        "height": "75px",
+        "className": "object-cover"
+      },
+      {
+        "src": "/assets/images/partner-logos/superplay.webp",
+        "alt": "Partner logo 3",
+        "width": "84px",
+        "height": "63px",
+        "className": "object-cover"
+      },
+      {
+        "src": "/assets/images/partner-logos/playtika.webp",
+        "alt": "Partner logo 4",
+        "width": "118px",
+        "height": "34px",
+        "className": "object-cover"
+      },
+      {
+        "src": "/assets/images/partner-logos/monoply_go.webp",
+        "alt": "Partner logo 5",
+        "width": "109px",
+        "height": "58px",
+        "className": "object-cover"
+      },
+      {
+        "src": "/assets/images/partner-logos/magiclab.webp",
+        "alt": "Partner logo 6",
+        "width": "176px",
+        "height": "58px",
+        "className": "object-cover"
+      },
+      {
+        "src": "/assets/images/partner-logos/nut_sort.webp",
+        "alt": "Partner logo 7",
+        "width": "64px",
+        "height": "64px",
+        "className": "object-cover"
+      }
+    ]
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "The more you play, the more you earn—it's that simple! Start gaming and start winning today!",
+    "steps": [
+      {
+        "title": "Download & Sign Up",
+        "description": "Install the Cash'D app and create your account.",
+        "image": "/assets/images/htw_1.webp",
+        "bgColor": "#efe9f7"
+      },
+      {
+        "title": "Play & Earn",
+        "description": "Choose games, complete challenges, and collect money.",
+        "image": "/assets/images/htw_2.webp",
+        "bgColor": "#e0f0fc"
+      },
+      {
+        "title": "Redeem Rewards",
+        "description": "Convert points into real money or gift cards.",
+        "image": "/assets/images/htw_3.webp",
+        "bgColor": "#ffe8e9"
+      }
+    ]
+  },
+  "popularGames": {
+    "title": "Earn Rewards for Playing the Games You Like!",
+    "subtitle": "Explore a wide range of exciting games, play your favorites, and get rewarded for every minute you spend gaming.",
+    "images": [
+      "/assets/images/pg_1.webp",
+      "/assets/images/pg_2.webp",
+      "/assets/images/pg_3.webp"
+    ]
+  },
+  "trendingGames": {
+    "title": "Popular & Trending Games",
+    "subtitle": "Turn your gaming skills into real rewards - Play games and win cash prizes effortlessly.",
+    "images": [
+      "/assets/images/pg_3.webp",
+      "/assets/images/pg_5.webp",
+      "/assets/images/pg_2.webp"
+    ]
+  },
+  "testimonials": [
+    {
+      "name": "Ayushi sharma",
+      "role": "Cash'D user",
+      "avatar": "/assets/images/ellipse_18.webp",
+      "content": "Cash'd completely changed the way I play mobile games! I used to just play for fun, but now I earn real rewards while enjoying my favorite games. The experience is smooth, the games are exciting, and the best part – I actually get something back for my time. It's fun and rewarding!"
+    }
+  ],
+  "instagram": {
+    "title": "Follow us on @Cash'D",
+    "subtitle": "Explore a wide range of exciting games, play your favorites, and get rewarded for every minute you spend gaming.",
+    "posts": [
+      {
+        "image": "/assets/images/post_1.webp",
+        "alt": "Dice Dream game screenshot",
+        "title": "Dice Dreams"
+      },
+      {
+        "image": "/assets/images/post_2.webp",
+        "alt": "Jelly Jump game screenshot",
+        "title": "Jelly Jump"
+      },
+      {
+        "image": "/assets/images/post_3.webp",
+        "alt": "Monoply Go game screenshot",
+        "title": "Monoply Go!"
+      }
+    ]
+  },
+  "contact": {
+    "email": "business@Cash-D.com",
+    "phone": "+917428761933",
+    "location": "Gurugram, India"
+  },
+  "footer": {
+    "logo": "/assets/images/logo_green.png",
+    "description": "Cash'D aims to provide a seamless and rewarding gaming experience, turning everyday activities into opportunities to earn real money.",
+    "aboutLinks": ["About Us", "Contact Us", "We are hiring"],
+    "policyLinks": ["Privacy policy", "Terms & conditions", "FAQ's"],
+    "copyright": "© 2025 Cash'D All rights reserved."
+  }
+}

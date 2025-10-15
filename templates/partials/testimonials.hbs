@@ -1,0 +1,43 @@
+<section id="testimonials" class="testimonials">
+    <div class="testimonials__container">
+        <div class="testimonials__header">
+            <span class="section-label">TESTIMONIALS</span>
+            <h2 class="section-title">User Testimonials &<br>Success Stories</h2>
+        </div>
+
+        <div class="testimonials__carousel">
+            <button class="testimonials__nav testimonials__nav--prev testimonials__nav--site" aria-label="Previous testimonial">
+                <img src="/assets/icons/arrow_left.svg" alt="Previous">
+            </button>
+
+            <div class="testimonials__content">
+                {{#each testimonials}}
+                <div class="testimonial {{#if @first}}testimonial--active{{/if}}">
+                    <div class="testimonial__avatar">
+                        <img src="{{avatar}}" alt="{{name}}">
+                    </div>
+                    <div class="testimonial__text">
+                        <div class="testimonial__quote">
+                            <img src="/assets/icons/quotes.svg" alt="Quote" class="testimonial__quote-start">
+                            <p class="testimonial__content">{{content}}</p>
+                            <img src="/assets/icons/quotes.svg" alt="Quote" class="testimonial__quote-end">
+                        </div>
+                        <div class="testimonial__author">
+                            <h4 class="testimonial__name">{{name}}</h4>
+                            <p class="testimonial__role">{{role}}</p>
+                        </div>
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+            <div class="testimonials__nav--group">
+                <button class="testimonials__nav testimonials__nav--prev testimonials__nav--mobile" aria-label="Previous testimonial">
+                    <img src="/assets/icons/arrow_left.svg" alt="Previous">
+                </button>
+                <button class="testimonials__nav testimonials__nav--next" aria-label="Next testimonial">
+                    <img src="/assets/icons/arrow_right.svg" alt="Next">
+                </button>
+            </div>
+        </div>
+    </div>
+</section>

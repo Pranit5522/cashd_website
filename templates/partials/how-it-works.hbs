@@ -1,0 +1,23 @@
+<section id="how-it-works" class="how-it-works">
+    <div class="how-it-works__container">
+        <div class="how-it-works__header">
+            <span class="section-label">USER FLOW</span>
+            <h2 class="section-title">{{howItWorks.title}}</h2>
+            <p class="section-subtitle">{{howItWorks.subtitle}}</p>
+        </div>
+
+        <div class="how-it-works__steps">
+            {{#each howItWorks.steps}}
+            <div class="step" data-step="{{@index}}">
+                <div class="step__card" style="background-color: {{bgColor}}">
+                    <img src="{{image}}" alt="{{title}}" class="step__image">
+                </div>
+                <div class="step__content">
+                    <h3 class="step__title">{{title}}</h3>
+                    <p class="step__description">{{description}}</p>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</section>

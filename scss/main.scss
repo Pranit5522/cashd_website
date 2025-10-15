@@ -1,0 +1,19 @@
+// Base styles
+@use 'base/fonts';
+@use 'base/reset';
+@use 'base/typography';
+@use 'base/variables';
+
+// Components
+@use 'components/hero';
+@use 'components/popular-games';
+@use 'components/how-it-works';
+@use 'components/trending-games';
+@use 'components/testimonials';
+@use 'components/instagram';
+@use 'components/footer';
+@use 'components/partners';
+
+// Utilities
+@use 'utilities/animations';
+@use 'utilities/responsive';

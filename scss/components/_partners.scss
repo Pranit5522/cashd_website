@@ -1,0 +1,137 @@
+// Partners Section Styles
+.partners-section {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #f8f9ff 0%, #ffffff 100%);
+    overflow: hidden;
+}
+
+.partners-container {
+    max-width: '100%';
+    margin: 0 auto;
+    padding: 0;
+}
+
+.partners-content {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.partners-subtitle {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 3.52px;
+    color: var(--text-secondary);
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+.partners-title {
+    font-weight: 700;
+    font-size: clamp(24px, 4vw, 32px);
+    color: var(--text-primary);
+    margin: 0;
+}
+
+.partners-carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      width: 100px;
+      height: 100%;
+      z-index: 2;
+      pointer-events: none;
+    }
+    &::before {
+      left: 0;
+      background: linear-gradient(to right, rgba(248, 249, 255, 1), rgba(248, 249, 255, 0));
+    }
+    &::after {
+      right: 0;
+      background: linear-gradient(to left, rgba(248, 249, 255, 1), rgba(248, 249, 255, 0));
+    }
+}
+
+.partners-track {
+    display: flex;
+    align-items: center;
+    gap: 72px;
+    animation: scroll-right 30s linear infinite;
+    width: fit-content;
+    &:hover {
+      animation-play-state: paused;
+    }
+}
+
+.partner-logo {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    &:hover {
+      opacity: 1;
+      transform: scale(1.05);
+    }
+    img {
+      max-height: 100%;
+      width: auto;
+      object-fit: contain;
+      // filter: grayscale(100%);
+      transition: filter 0.3s ease;
+    }
+    &:hover img {
+      // filter: grayscale(0%);
+    }
+}
+
+// Keyframe animation for smooth scrolling right
+@keyframes scroll-right {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+// Responsive adjustments
+@media (max-width: 1024px) {
+  .partners-track {
+    gap: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .partners-section {
+    padding: 32px 0;
+  }
+  .partners-container {
+    padding: 0;
+  }
+  .partners-content {
+    margin-bottom: 30px;
+  }
+  .partners-track {
+    gap: 24px;
+    animation-duration: 20s;
+  }
+  .partner-logo {
+    height: 42px;
+    width: auto;
+  }
+  .partners-carousel::before,
+  .partners-carousel::after {
+    width: 50px;
+  }
+  .partners-subtitle {
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+}

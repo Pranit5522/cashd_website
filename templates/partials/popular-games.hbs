@@ -1,0 +1,19 @@
+<section id="popular-games" class="popular-games">
+    <div class="popular-games__container">
+        <div class="popular-games__content">
+            <div class="popular-games__text">
+                <span class="section-label">POPULAR GAMES</span>
+                <h2 class="section-title">{{popularGames.title}}</h2>
+                <p class="section-subtitle">{{popularGames.subtitle}}</p>
+            </div>
+        </div>
+
+        <div class="popular-games__images">
+            {{#each popularGames.images}}
+            <div class="popular-games__image">
+                <img src="{{this}}" alt="Game screenshot">
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</section>

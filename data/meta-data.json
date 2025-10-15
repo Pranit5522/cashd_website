@@ -1,0 +1,25 @@
+{
+  "APP_INFO": [
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "in.cashback.shopping.kickcash",
+        "sha256_cert_fingerprints": [
+          "BE:EC:67:7D:EB:09:B7:95:7B:C7:24:B8:52:08:A9:57:A2:F4:62:45:A3:BE:05:6E:C4:30:CF:85:EF:E5:9C:6F"
+        ]
+      }
+    },
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "in.cashback.shopping.kickcash.debug",
+        "sha256_cert_fingerprints": [
+          "91:81:3B:EC:56:18:6B:A4:8F:13:D2:78:CC:89:C1:32:43:F5:32:77:B0:ED:4D:F7:3A:EA:69:78:FC:A0:69:C8",
+          "FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C"
+        ]
+      }
+    }
+  ]
+}

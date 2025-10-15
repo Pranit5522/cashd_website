@@ -1,0 +1,60 @@
+<section id="home" class="hero">
+    <div class="hero__container">
+        <!-- Navigation -->
+        <nav class="hero__nav">
+            <div class="hero__logo">
+                <img src="{{hero.logo}}" alt="KickCash Logo">
+            </div>
+
+            <div class="hero__menu-container">
+                <button class="hero__hamburger show-mobile" aria-label="Open menu" data-hamburger>
+                    <svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect y="7" width="32" height="3" rx="1.5" fill="currentColor"/>
+                    <rect y="15" width="32" height="3" rx="1.5" fill="currentColor"/>
+                    <rect y="23" width="32" height="3" rx="1.5" fill="currentColor"/>
+                    </svg>
+                </button>
+                <div class="hero__menu-wrapper" data-menu>
+                    <ul class="hero__menu">
+                        {{#each navigation}}
+                        <li class="hero__menu-item {{#if active}}hero__menu-item--active{{/if}}">
+                            <a href="{{href}}">{{label}}</a>
+                        </li>
+                        {{/each}}
+                    </ul>
+                </div>
+            </div>
+
+            {{!-- <div class="hero__actions">
+                <button class="hero__translate" aria-label="Translate">
+                    <img src="/assets/icons/ph-translate.svg" alt="Translate">
+                    <img src="/assets/icons/iconamoon-arrow-up-2.svg" alt="Arrow">
+                </button>
+            </div> --}}
+        </nav>
+
+        <!-- Hero Content -->
+        <div class="hero__content">
+            <div class="hero__text">
+                <h1 class="hero__title">{{hero.title}}</h1>
+                <p class="hero__subtitle">{{hero.subtitle}}</p>
+
+                {{!-- <div class="hero__social-proof">
+                    <div class="hero__avatars">
+                        <img src="/assets/images/ellipse_32.webp" alt="User" class="hero__avatar">
+                        <img src="/assets/images/ellipse_34.webp" alt="User" class="hero__avatar">
+                        <div class="hero__avatar hero__avatar--more">+</div>
+                    </div>
+                    <span class="hero__user-count">{{hero.userCount}}</span>
+                </div> --}}
+                <a class="hero__googleplay" href="{{hero.playstore_url}}" target="_blank" rel="noopener">
+                    <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play">
+                </a>
+            </div>
+
+            <div class="hero__image">
+                <img src="{{hero.image}}" alt="Gaming illustration">
+            </div>
+        </div>
+    </div>
+</section>
