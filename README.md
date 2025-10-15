@@ -64,3 +64,4 @@ This project uses the Satoshi font family. To use the fonts:
    - `Satoshi-Medium.woff2`
    - `Satoshi-Bold.woff2`
    - `Satoshi-Black.woff2`
+
